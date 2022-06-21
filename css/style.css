@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.container-1{
+	padding: 0 50px;
+}
+/*header section start*/
+/*top header section start*/
+header .top-header .box{
+	align-items: center;
+}
+header .top-header .box .right-side ul li{
+	margin-right: 15px;
+}
+header .top-header .box .right-side ul li a svg{
+	fill: rgba(155,155,155,0.7);
+}
+header .top-header .box .right-side ul li a svg:hover{
+	fill: white;
+}
+/*top header section end*/
+
+/*main-header section start*/
+header nav{
+	background: #ededed;
+}
+header nav .logo h3{
+	font-family: 'Smooch', cursive;
+	font-size: 50px;
+}
+header nav .menu ul li {
+	margin-right: 25px;
+}
+header nav .menu ul li a{
+	color: #000;
+	font-weight: 500;
+}
+/*main-header section end*/
+/*header section end*/
+
+
+/*banner section start*/
+.banner .row .col-7 .img-box .img-sec{
+	position: relative;
+}
+.banner .row .col-7 .img-box .img-sec .title{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+}
+.banner .row .col-7 .img-box .img-sec .title .time-details svg{
+	fill: white;
+}
+.banner .row .col-5 .img-box .img-sec{
+	position: relative;
+}
+.banner .row .col-5 .img-box .img-sec .title{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	right: 50px;
+}
+.banner .row .col-5 .img-box {
+    height: 30vh;
+}
+.banner .row .col-5 .img-box .img-sec .title .time-details svg{
+	fill: white;
+}
+.banner .row .col-5 .img-box .img-sec img{
+	height: 28vh;
+}
+.banner .row .col-5 .two-blogs .box{
+	height: 13vh;
+}
+.banner .row .col-5 .two-blogs .box .img-box{
+	width: 20vw;
+}
+/*banner section end*/
+
+/*sign up section start*/
+.sign-up {
+	background: #37917f;
+}
+.sign-up .right-side input{
+	width: 15vw;
+}
+.sign-up .right-side a{
+	background: #000;
+	color: white;
+	padding: 10px 20px;
+	text-transform: capitalize;
+}
+/*sign up section end*/
+
+
+/*adventure travel section start*/
+.adventure-travel{
+	height: 75vh;
+}
+.adventure-travel .blogs .row .col-4 .paragraph p{
+	font-size: 25px;
+}
+.adventure-travel .blogs .row .col-4 .first-two-blog .box .img-sec{
+	width: 30vw;
+}
+.adventure-travel .blogs .row .col-4 .first-two-blog .text-blog ul li{
+	list-style: square;
+}
+.adventure-travel .blogs .row .col-4 .first-two-blog .text-blog ul li a{
+	font-size: 22px;
+}
+.adventure-travel .blogs .row .col-4 .first-two-blog .text-blog ul li a:hover{
+	color: black;
+}
+/*adventure travel section end*/
+
+footer ul li{
+	margin-right: 25px;
+}
+footer ul li a svg{
+	fill: white;
+}
+
+@media screen and (min-device-width: 1366px), screen and (max-device-height: 768px){
+	/*banner section start*/
+	.banner .row .col-5 .img-box .img-sec .title{
+		bottom: 10px;
+	}
+	.banner .row .col-5 .img-box .img-sec .title h5{
+		font-size: 10px;
+	}
+	.banner .row .col-5 .img-box .img-sec .title h2{
+		font-size: 15px;
+	}
+	.banner .row .col-5 .two-blogs .box .details{
+		margin-top: 0;
+	}
+	.banner .row .col-5 .two-blogs .box .details h5{
+		font-size: 15px;
+	}
+	.banner .row .col-5 .two-blogs .box .details h4{
+		font-size: 16px;
+	}
+	.banner .row .col-5 .two-blogs .second-box{
+		margin-top: 20px;
+	}
+	/*banner section end*/
+
+	/*trending post section start*/
+	.trending-page .title h3{
+		font-size: 25px !important; 
+	}
+	.trending-page .post .row .col-3 .details h5{
+		font-size: 15px !important;
+		font-weight: 500 !important;
+	}
+	.trending-page .post .row .col-3 .details h4{
+		font-size: 20px !important;
+		font-weight: 600 !important;
+	}
+	/*trending post section end*/
+
+	/*adventure travel section start*/
+	.adventure-travel {
+		height: 100vh !important;
+	}
+	.adventure-travel .row .col-4 .paragraph p{
+		font-size: 20px !important;
+		font-weight: 500 !important;
+	}
+	.adventure-travel .row .col-4 .first-two-blog .box .details h4{
+		font-size: 20px !important;
+	}
+	.adventure-travel .row .col-4 .first-two-blog .second-box{
+		margin-top: 0 !important;
+	}
+	.adventure-travel .row .col-4 .text-blog ul li a{
+		font-size: 18px !important;
+	}
+	.adventure-travel .row .col-4 .box .details h4{
+		font-size: 20px !important;
+	}
+	.adventure-travel .row .col-4 .mini-box .first-box .details h4{
+		margin-top: 15px;
+		font-size: 18px !important;
+	}
+	.adventure-travel .row .col-4 .mini-box .sec-box .details h4{
+		margin-top: 15px;
+		font-size: 18px !important;
+	}
+	/*adventure travel section end*/
+
+	/*footer section start*/
+	footer .copywrite-text h4{
+		font-size: 15px;
+	}
+	footer ul li{
+		margin-right: 0 !important;
+	}
+	footer ul li a svg{
+		height: 25px;
+	}
+	/*footer section end*/
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+
+	/*header section start*/
+	header nav .container{
+		display: block !important;
+	}
+	header nav .container .logo{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	header nav .container .menu{
+		text-align: center;
+	}
+	/*header section end*/
+
+
+	/*banner section start*/
+	.banner .row{
+		display: block;
+	}
+	.banner .row .col-7{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.banner .row .col-5{
+		width: 100%;
+	}
+	.banner .row .col-5 .two-blogs .box{
+		height: 7vh;
+	}
+	/*banner section end*/
+
+	/*adventure-travel section start*/
+	.adventure-travel{
+		margin-bottom: 25px;
+	}
+	.adventure-travel .blogs .row{
+		display: block;
+	}
+	.adventure-travel .blogs .row .col-4{
+		width: 100%;
+	}
+	.adventure-travel .blogs .row .col-4 .first-two-blog .second-box{
+		margin-top: 10px !important;
+	}
+	.adventure-travel .blogs .row .col-4 .first-two-blog .text-blog{
+		margin-top: 25px !important;
+	}
+	.adventure-travel .blogs .row .col-4 .box{
+		text-align: center;
+	}
+	.adventure-travel .blogs .row .col-4 .box .img-sec img{
+		width: 50% !important;
+	}
+	.adventure-travel .blogs .row .col-4 .mini-box{
+		text-align: center;
+	}
+	.adventure-travel .blogs .row .col-4 .mini-box .img-sec img{
+		width: 85% !important;
+	}
+	/*adventure-travel section start*/
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+	/*banner section start*/
+	.banner .row{
+		display: block;
+	}
+	.banner .row .col-7{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.banner .row .col-5{
+		width: 100%;
+	}
+	.banner .row .col-5 .two-blogs .box {
+		height: 8vh;
+	}
+	/*banner section end*/
+
+	/*sign up section start*/
+	.sign-up .right-side input{
+		margin-bottom: 20px;
+	}
+	/*sign up section end*/
+
+	/*adventure trvel section start*/
+	.adventure-travel {
+		height: 80vh!important;
+	}
+	/*adventure travel section end*/
+}
